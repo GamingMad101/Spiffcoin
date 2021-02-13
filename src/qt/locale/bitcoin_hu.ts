@@ -76,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>DogecoinGUI</name>
+    <name>spiffcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Üzenet aláírása...</translation>
@@ -158,8 +158,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Dogecoin küldése megadott címre</translation>
+        <source>Send coins to a spiffcoin address</source>
+        <translation>spiffcoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -182,8 +182,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>spiffcoin</source>
+        <translation>spiffcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -210,12 +210,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Dogecoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your spiffcoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a spiffcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Dogecoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified spiffcoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt spiffcoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -234,8 +234,8 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "dogecoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and spiffcoin: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "spiffcoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -246,16 +246,16 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>"dogecoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a spiffcoin: URI or payment request</source>
+        <translation>"spiffcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Dogecoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Dogecoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to spiffcoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a spiffcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a spiffcoin hálózathoz</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -592,16 +592,16 @@
         <translation>Szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Dogecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the spiffcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A spiffcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Dogecoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the spiffcoin network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a spiffcoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -695,8 +695,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Dogecoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the spiffcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a spiffcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -764,8 +764,8 @@
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. %1)</source>
-        <translation>Ad meg egy Dogecoin címet (pl: %1)</translation>
+        <source>Enter a spiffcoin address (e.g. %1)</source>
+        <translation>Ad meg egy spiffcoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1285,7 +1285,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this spiffcoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1348,7 +1348,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>dogecoin-core</name>
+    <name>spiffcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciók
@@ -1378,8 +1378,8 @@
 </translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>spiffcoin Core</source>
+        <translation>spiffcoin Core</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -1533,7 +1533,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég dogecoinod.</translation>
+        <translation>Nincs elég spiffcoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

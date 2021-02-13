@@ -64,7 +64,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>DogecoinGUI</name>
+    <name>spiffcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Sincronizando con la red...</translation>
@@ -126,8 +126,8 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Enviando monedas a una dirección de Dogecoin</translation>
+        <source>Send coins to a spiffcoin address</source>
+        <translation>Enviando monedas a una dirección de spiffcoin</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -146,8 +146,8 @@
         <translation>&amp;Verificar Mensaje...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>spiffcoin</source>
+        <translation>spiffcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -294,10 +294,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>dogecoin-core</name>
+    <name>spiffcoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>spiffcoin Core</source>
+        <translation>spiffcoin Core</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

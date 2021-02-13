@@ -1,15 +1,15 @@
 [Unit]
-Description=Dogecoin's distributed currency daemon
+Description=spiffcoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dogecoin
-Group=dogecoin
+User=spiffcoin
+Group=spiffcoin
 
 Type=forking
-PIDFile=/var/lib/dogecoind/dogecoind.pid
-ExecStart=/usr/bin/dogecoind -daemon -pid=/var/lib/dogecoind/dogecoind.pid \
--conf=/etc/dogecoin/dogecoin.conf -datadir=/var/lib/dogecoind -disablewallet
+PIDFile=/var/lib/spiffcoind/spiffcoind.pid
+ExecStart=/usr/bin/spiffcoind -daemon -pid=/var/lib/spiffcoind/spiffcoind.pid \
+-conf=/etc/spiffcoin/spiffcoin.conf -datadir=/var/lib/spiffcoind -disablewallet
 
 Restart=always
 PrivateTmp=true

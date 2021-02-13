@@ -44,11 +44,11 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case MBTC: return QString("MDOGE");
-    case kBTC: return QString("kDOGE");
-    case BTC: return QString("DOGE");
-    case mBTC: return QString("mDOGE");
-    case uBTC: return QString::fromUtf8("μDOGE");
+    case MBTC: return QString("Mspiff");
+    case kBTC: return QString("kspiff");
+    case BTC: return QString("spiff");
+    case mBTC: return QString("mspiff");
+    case uBTC: return QString::fromUtf8("μspiff");
     default: return QString("???");
     }
 }
@@ -57,11 +57,11 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MBTC: return QString("Mega-Dogecoins (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case kBTC: return QString("Kilo-Dogecoins (1" THIN_SP_UTF8 "000)");
-    case BTC: return QString("Dogecoins");
-    case mBTC: return QString("Milli-Dogecoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Dogecoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case MBTC: return QString("Mega-spiffcoins (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case kBTC: return QString("Kilo-spiffcoins (1" THIN_SP_UTF8 "000)");
+    case BTC: return QString("spiffcoins");
+    case mBTC: return QString("Milli-spiffcoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-spiffcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

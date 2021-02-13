@@ -36,7 +36,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>DogecoinGUI</name>
+    <name>spiffcoinGUI</name>
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -154,6 +154,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>dogecoin-core</name>
+    <name>spiffcoin-core</name>
     </context>
 </TS>

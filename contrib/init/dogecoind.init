@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  dogecoind The dogecoin core server.
+#  spiffcoind The spiffcoin core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dogecoind
-# processname: dogecoind
+# description: spiffcoind
+# processname: spiffcoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dogecoind, see below
-if [ -f /etc/sysconfig/dogecoind ]; then
-        . /etc/sysconfig/dogecoind
+# you can override defaults in /etc/sysconfig/spiffcoind, see below
+if [ -f /etc/sysconfig/spiffcoind ]; then
+        . /etc/sysconfig/spiffcoind
 fi
 
 RETVAL=0
 
-prog=dogecoind
-# you can override the lockfile via DOGECOIND_LOCKFILE in /etc/sysconfig/dogecoind
-lockfile=${DOGECOIND_LOCKFILE-/var/lock/subsys/dogecoind}
+prog=spiffcoind
+# you can override the lockfile via spiffCOIND_LOCKFILE in /etc/sysconfig/spiffcoind
+lockfile=${spiffCOIND_LOCKFILE-/var/lock/subsys/spiffcoind}
 
-# dogecoind defaults to /usr/bin/dogecoind, override with DOGECOIND_BIN
-dogecoind=${DOGECOIND_BIN-/usr/bin/dogecoind}
+# spiffcoind defaults to /usr/bin/spiffcoind, override with spiffCOIND_BIN
+spiffcoind=${spiffCOIND_BIN-/usr/bin/spiffcoind}
 
-# dogecoind opts default to -disablewallet, override with DOGECOIND_OPTS
-dogecoind_opts=${DOGECOIND_OPTS--disablewallet}
+# spiffcoind opts default to -disablewallet, override with spiffCOIND_OPTS
+spiffcoind_opts=${spiffCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $dogecoind $dogecoind_opts
+    daemon $DAEMONOPTS $spiffcoind $spiffcoind_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

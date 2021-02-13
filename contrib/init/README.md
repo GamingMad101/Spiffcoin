@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dogecoind.service
-Upstart: dogecoind.conf
-OpenRC:  dogecoind.openrc
-         dogecoind.openrcconf
-CentOS:  dogecoind.init
-OS X:    org.dogecoin.dogecoind.plist
+SystemD: spiffcoind.service
+Upstart: spiffcoind.conf
+OpenRC:  spiffcoind.openrc
+         spiffcoind.openrcconf
+CentOS:  spiffcoind.init
+OS X:    org.spiffcoin.spiffcoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

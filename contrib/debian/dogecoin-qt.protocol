@@ -1,6 +1,6 @@
 [Protocol]
-exec=dogecoin-qt '%u'
-protocol=dogecoin
+exec=spiffcoin-qt '%u'
+protocol=spiffcoin
 input=none
 output=none
 helper=true

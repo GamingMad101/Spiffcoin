@@ -52,7 +52,7 @@
     </message>
     </context>
 <context>
-    <name>DogecoinGUI</name>
+    <name>spiffcoinGUI</name>
     <message>
         <source>&amp;Wow</source>
         <translation>&amp;கண்ணோட்டம்</translation>
@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>spiffcoin</source>
+        <translation>spiffcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -706,10 +706,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>dogecoin-core</name>
+    <name>spiffcoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin மையம்</translation>
+        <source>spiffcoin Core</source>
+        <translation>spiffcoin மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>
